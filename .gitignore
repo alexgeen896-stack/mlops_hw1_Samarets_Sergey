@@ -1,1 +1,34 @@
-/model.pkl
+# MLflow
+mlflow.db
+mlruns/
+.mlflow/
+
+# DVC
+.dvc/tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Модели (кроме тех что через DVC)
+*.pkl
+*.pickle
+*.joblib
