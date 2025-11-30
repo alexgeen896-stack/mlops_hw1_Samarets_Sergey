@@ -7,6 +7,7 @@
 
 ## Структура проекта
 
+<pre>
 mlops_hw1/
 ├── data/
 │   ├── raw/           # Исходные данные (Iris dataset)
@@ -18,6 +19,7 @@ mlops_hw1/
 ├── params.yaml       # Гиперпараметры
 ├── requirements.txt  # Зависимости
 └── README.md         # Документация
+</pre>
 
 ## Как запустить
 
